@@ -4,22 +4,55 @@
     <title>Document</title>
     <style>
       #container {
-        border: 1px solid black;
+        border: 1px solid rgba(0, 0, 0, 0.239);
         width: 400px;
-        height: 300px;
+        height: 350px;
+        padding: 30px;
+        margin: auto;
       }
-      #try-button{
-
+      #try-button {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+      }
+      #chat-head {
+        color: rgb(0, 0, 0, 0.6);
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 0;
+        border-bottom-style: inset;
+      }
+      #button-style {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #4184e1;
+        padding: 15px;
+        text-align: center;
+        border-radius: 30px;
       }
     </style>
   </head>
   <body>
     <article id="container">
-      <h2>Built your first chatbot in 10 minutes!</h2>
-      <p>have a bot answering questions from customers on your website within 10 minutes of signing up for ChatBot.</p>
+      <header>
+        <h2 id="chat-head">Built your first chatbot in 10 minutes!</h2>
+      </header>
 
-      <a href="#" id="try-button">TRY NOW </a>
-      <p>By clicking try now you can create an account and agree to our terms and conditions and Privacy Policy.</p>
+      <p style="color: rgb(0, 0, 0, 0.5); font-size: 22px">
+        have a bot answering questions from customers on your website within 10
+        minutes of signing up for ChatBot.
+      </p>
+
+      <div id="button-style">
+        <a href="#" id="try-button">TRY NOW &rarr;</a> 
+      </div>
+
+      <footer>
+        <p style="color: rgb(0, 0, 0, 0.3)">
+          By clicking try now you can create an account and agree to our terms
+          and conditions and Privacy Policy.
+        </p>
+      </footer>
     </article>
   </body>
 </html>
