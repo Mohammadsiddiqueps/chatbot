@@ -6,9 +6,10 @@
       #container {
         border: 1px solid rgba(0, 0, 0, 0.239);
         width: 400px;
-        height: 350px;
+        height: fit-content;
         padding: 30px;
         margin: auto;
+        font-family: sans-serif;
       }
       #try-button {
         text-decoration: none;
@@ -19,16 +20,16 @@
         color: rgb(0, 0, 0, 0.6);
         font-size: 40px;
         font-weight: 500;
-        margin-top: 0;
-        border-bottom-style: inset;
+        margin: 0px 0px 22px 0px;
       }
       #button-style {
         width: 100%;
         box-sizing: border-box;
         background-color: #4184e1;
-        padding: 15px;
+        padding: 12px;
         text-align: center;
         border-radius: 30px;
+        margin-top: 22px;
       }
     </style>
   </head>
@@ -36,19 +37,20 @@
     <article id="container">
       <header>
         <h2 id="chat-head">Built your first chatbot in 10 minutes!</h2>
+        <div style="border: 1.5px solid black; width: 40px"></div>
       </header>
 
-      <p style="color: rgb(0, 0, 0, 0.5); font-size: 22px">
+      <p style="color: rgb(0, 0, 0, 0.4); font-size: 20px; margin-top: 22px">
         have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
 
       <div id="button-style">
-        <a href="#" id="try-button">TRY NOW &rarr;</a> 
+        <a href="#" id="try-button">TRY NOW &rarr;</a>
       </div>
 
       <footer>
-        <p style="color: rgb(0, 0, 0, 0.3)">
+        <p style="color: rgb(0, 0, 0, 0.4); font-size: 14px">
           By clicking try now you can create an account and agree to our terms
           and conditions and Privacy Policy.
         </p>
